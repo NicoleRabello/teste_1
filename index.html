@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vendas</title>
+</head>
+<body>
+    <div class="container">
+  <header class="header">
+    <form method="post" action="connect.php">
+      <p><h1 class="centro">Controle de Vendas</h1>
+
+    <div class="headerBtnGroup">
+      <button class="botao">Login</button>
+      <button class="botao">Criar Conta</button>
+    </div>
+  </header>
+    <form method="post" action="connect.php">
+        <hr>
+        <table class="tabela" border="1">
+            <thead>
+                <tr class="titulo">
+                    <th>Produtos:</th>
+                    <th>Preço (em R$):</th>
+                    <th>Quantidade:</th>
+                </tr>
+            </thead>
+            <tbody>
+                <td><input type="checkbox">Camiseta Regata</td>
+                <td class="valor">19,90</td>
+                <td><input class="number" type="number" value="0" name="regata"></td>
+                <tr>
+                    <td><input type="checkbox">Camiseta Social</td>
+                    <td class="valor">59,90</td>
+                    <td><input class="number" type="number" value="0" name="social"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Blusa</td>
+                    <td class="valor">119,90</td>
+                    <td><input class="number" type="number" value="0" name="blusa"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Pullover</td>
+                    <td class="valor">39,90</td>
+                    <td><input class="number" type="number" value="0" name="pullover"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Sapato</td>
+                    <td class="valor">99,90</td>
+                    <td><input class="number" type="number" value="0" name="sapato"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Calça</td>
+                    <td class="valor">38,90</td>
+                    <td><input class="number" type="number" value="0" name="calca"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Meias</td>
+                    <td class="valor">9,90</td>
+                    <td><input class="number" type="number" value="0" name="meias"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Luvas</td>
+                    <td class="valor">24,90</td>
+                    <td><input class="number" type="number" value="0" name="luvas"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Jaqueta</td>
+                    <td class="valor">329,90</td>
+                    <td><input class="number" type="number" value="0" name="jaqueta"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Bermuda</td>
+                    <td class="valor">59,90</td>
+                    <td><input class="number" type="number" value="0" name="bermuda"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Chinelo</td>
+                    <td class="valor">14,90</td>
+                    <td><input class="number" type="number" value="0" name="chinelo"></td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox">Boné</td>
+                    <td class="valor">6,90</td>
+                    <td><input class="number" type="number" value="0" name="bone"></td>
+                </tr>
+            </tbody>
+        </table>
+        <div class="pagamento">
+          <p>Forma de Pagamento:</p>
+          <div class="pagamento2">
+          <input name="forma" type="radio" value="1">À Vista <br>
+          <input name="forma" type="radio" value="2">À Prazo <br>
+       </div>
+       </div>
+        <div class="parcela1">
+        Quantidade de Parcelas:
+        <div class="parcela2">
+        <select name="parcelas">
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select></p>
+    </div class="pagamentoFim">
+        </div>
+        <input class="enviar" type="submit" value="Enviar" > 
+      </div>
+    </form>
+</div>
+</body>
+</html>

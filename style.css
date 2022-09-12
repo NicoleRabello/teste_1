@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 20px;
+}
+.container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.header {
+  width: 100%;
+  min-height: 40px; /*altura minima na hr de quebrar*/
+  background-color: #292929;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /*espaçamento*/
+  flex-wrap: wrap;
+  padding: 30px;
+  gap: 8px 15px; /*hora do quebramento*/
+}
+.centro {
+  color: white;
+  font-size: 50px;
+}
+.headerBtnGroup {
+  display: flex;
+  gap: 20px; /*distancia entre os botoes*/
+}
+.botao {
+  font-size: 20px; /*letra bonitinha*/
+  padding: 6px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  float: right;
+}
+.botao:hover {
+  /*hover=efeito do sublinhado*/
+  border-bottom: 2px solid red;
+}
+.tabela {
+  background-color: gray;
+  position: absolute;
+  left: 450px; /* posiciona a 90px para a esquerda */
+  top: 200px; /* posiciona a 70px para baixo */
+}
+.number {
+  background-color: gray;
+}
+.pagamento {
+  background-color: #383838;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 20px;
+  width: 20%;
+  margin: 10px auto auto 1050px;
+  align-items: center;
+  min-width: 130px;
+}
+.pagamento2 {
+  align-items: center;
+  min-width: 80px;
+}
+.parcela1 {
+  background-color: #383838;
+  color: white;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 15px;
+  width: 20%;
+  margin: 10px auto auto 1050px;
+  align-items: center;
+  min-width: 120px;
+}
+.enviar {
+  gap: 5px;
+  width: 10%;
+  margin: 10px auto auto 1130px;
+}
